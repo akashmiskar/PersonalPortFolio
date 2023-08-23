@@ -22,9 +22,9 @@ const data = [
     {
         id: 3,
         image: Image3,
-        title: "Product Photography",
+        title: "BackEnd Developer",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+            "Write code and tests, build prototypes, resolve issues, and profile and analyze bottlenecks Design robust APIs to support mobile and desktop clients",
     },
 ];
 

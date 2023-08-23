@@ -19,10 +19,10 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              Hello! I'm Akash, and I'm based in Pune,India.
+            Hi, I am Akash Associate React Developer
               <br />
               <br />
-              Front-end developer with 3+ year experience with ability to design
+              Software Developer 3+ year experience with ability to design
               and develop JavaScript-based applications for web or mobile
               environments. Strong knowledge of React JS, Redux,Javascript
               jQuery, HTML, CSS, and Bootstrap ,Tailwind Css. Experienced in all
@@ -32,10 +32,12 @@ const About = () => {
             <ul className="about__list">
               <li>JavaScript (ES6+)</li>
               <li>Redux</li>
+              <li>.NetCore</li>
               <li>React</li>
               <li>JQuery</li>
               <li>REST API</li>
               <li>Tailwind CSS</li>
+              <li>Boostrap CSS</li>
             </ul>
             <button className="btn" onClick={downloadResume}>
               Donwload CV

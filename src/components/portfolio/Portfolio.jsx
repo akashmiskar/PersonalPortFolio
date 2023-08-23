@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Portfolio.css";
 
 import Menu from "./Menu";
-import { RiGithubLine, RiLink } from "react-icons/ri";
+import {  RiLink } from "react-icons/ri";
 
 import { motion } from "framer-motion";
 
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
 			<div className="portfolio__container grid">
 				{items.map((elem) => {
-					const { id, image, title, category, url, repositoryUrl } = elem;
+					const { id, image, title, category, url } = elem;
 
 					return (
 						<motion.div
@@ -62,9 +62,9 @@ const Portfolio = () => {
 							<a href={url} target="_blank" rel="noreferrer" className="portfolio__button">
 								<RiLink className="portfolio__button-icon" />
 							</a>
-							<a href={repositoryUrl} target="_blank" rel="noreferrer" className="portfolio__github-button">
+							{/* <a href={repositoryUrl} target="_blank" rel="noreferrer" className="portfolio__github-button">
 								<RiGithubLine className="portfolio__button-icon" />
-							</a>
+							</a> */}
 						</motion.div>
 					);
 				})}

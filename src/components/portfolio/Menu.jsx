@@ -6,7 +6,7 @@ const Menu = [
 		image: Work1,
 		title: "Reflexion.ai",
 		category: ["Frontend", "React"],
-		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
+		url: "https://app.reflexion.ai/"
 	}
 	// {
 	// 	id: 2,

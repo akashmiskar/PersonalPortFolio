@@ -57,6 +57,7 @@ const Contact = (props) => {
                     <p className="contact__details">
                         Don't like forms? Send me an email. 👋
                     </p>
+                    
                 </div>
 
                 <form onSubmit={submitHandler} className="contact__form">
