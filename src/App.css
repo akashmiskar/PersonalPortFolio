@@ -1,0 +1,18 @@
+.main {
+  margin-left: 110px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-left: 0;
+  }
+}
+
+
+#Imglog {
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 50%
+}
+  
