@@ -2,4 +2,4 @@
 
 ![Alt text](image.png)
 
-For bilding this portfolio I have used **React**, **HTML**, **CSS** 
+For building this portfolio I have used **React**, **HTML**, **CSS** 
